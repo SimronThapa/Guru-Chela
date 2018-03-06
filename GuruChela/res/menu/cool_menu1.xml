@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_ai_chat1"
+        android:icon="@android:drawable/sym_action_chat"
+        android:showAsAction="always"
+        android:title="Ask Geek!"/>
+    <item
+        android:id="@+id/menu_speak1"
+        android:icon="@android:drawable/ic_btn_speak_now"
+        android:showAsAction="always"
+        android:title="Speak Up!"/>
+     <item
+        android:id="@+id/menu_help1"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="Help"/>
+    <item
+        android:id="@+id/menu_search1"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="View Report-Card"/>
+    <item
+        android:id="@+id/menu_settings1"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="Settings"/>
+    <item
+        android:id="@+id/menu_bug1"
+        android:icon="@android:drawable/ic_notification_clear_all"
+        android:title="Report a Bug"/>
+    <item
+        android:id="@+id/menu_about_us1"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="About Us"/>
+    <item
+        android:id="@+id/menu_logout1"
+        android:icon="@android:drawable/ic_delete"
+        android:title="Exit"/></menu>

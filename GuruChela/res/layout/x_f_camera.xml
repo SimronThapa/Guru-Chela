@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#BDEFB8"
+    android:padding="16dp">
+	<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/imagelayout"
+         >
+
+    <ImageView
+        android:id="@+id/ivimg"
+        android:layout_width="258dp"
+        android:layout_height="275dp"
+        android:layout_gravity="center"
+        android:src="@drawable/cam" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <ImageButton
+            android:id="@+id/ivclick"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_weight="2.41"
+            android:background="@drawable/button_bg"
+            android:src="@android:drawable/ic_menu_camera" />
+        
+    </LinearLayout>
+
+</LinearLayout>

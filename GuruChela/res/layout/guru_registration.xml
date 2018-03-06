@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#BDEFB8"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRATION FORM"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/BGgreen" />
+
+    <EditText
+        android:id="@+id/et_reg_gfn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Firstname..." >
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_reg_gln"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Lastname..." />
+
+    <EditText
+        android:id="@+id/et_reg_gemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email ID..."
+        android:inputType="textEmailAddress" />
+
+    
+
+    <EditText
+        android:id="@+id/et_reg_gun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Username..." />
+
+    <EditText
+        android:id="@+id/et_reg_gpw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password..."
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/et_reg_gcpw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Confirm Password..."
+        android:inputType="textPassword" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvgAuthenticationCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FF13FF" />
+
+    <Button
+        android:id="@+id/b_reg_gcontinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="Continue" />
+
+</LinearLayout>

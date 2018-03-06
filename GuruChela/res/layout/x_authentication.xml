@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+     android:background="#BDEFB8"
+     >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:padding="10dp"
+        android:text="Give the Authentication Code provided by your institution and continue..."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/BGgreen" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/etAuthenCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Authentication Code..."
+        android:padding="10dp" >
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <ImageButton
+        android:id="@+id/ibOKey"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+         android:background="@drawable/button_bg"
+        android:src="@drawable/abs__ic_cab_done_holo_dark" />
+
+</LinearLayout>

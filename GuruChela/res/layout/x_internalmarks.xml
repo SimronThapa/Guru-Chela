@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#BDEFB8"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Internal marks distribution"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <EditText
+            android:id="@+id/etSubjectTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Subject Name" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/ettotalmarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+             android:hint="Total marks..." >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/etattendance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Attendances..." />
+
+        <EditText
+            android:id="@+id/etassignment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Assignment..." />
+
+        <EditText
+            android:id="@+id/etassesment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Assesment..." />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bconfirm"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+         android:background="@drawable/button_bg" />
+
+</LinearLayout>

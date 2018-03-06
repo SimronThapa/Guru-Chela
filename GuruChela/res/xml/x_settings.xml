@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    >
+
+    <PreferenceCategory android:title="Settings" >
+        <CheckBoxPreference
+            android:key="parent_checkbox_preference"
+            android:summary="Do you want to change your password?"
+            android:title="Change Password..." 
+            />
+
+        <!-- The visual style of a child is defined by this styled theme attribute. -->
+        <EditTextPreference
+            android:dialogTitle="Old Password"
+            android:key="edittext_preference_1"
+            android:dependency="parent_checkbox_preference"
+            android:title="Give your old password" />
+        <EditTextPreference
+            android:dialogTitle="New Password"
+            android:key="edittext_preference_2"
+            android:dependency="edittext_preference_1"
+            android:title="Set a new password"/>
+        <EditTextPreference
+            android:dialogTitle="Confirm Password"
+            android:key="edittext_preference_3"
+            android:dependency="edittext_preference_1"
+            android:title="Confirm your password"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

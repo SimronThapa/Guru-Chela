@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#BDEFB8"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <RadioGroup
+        android:id="@+id/rg_registration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/msg"
+        android:padding="16dp" >
+
+        <RadioButton
+            android:id="@+id/rbGuru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guru"
+            android:textColor="@color/BGgreen" />
+
+        <RadioButton
+            android:id="@+id/rbChela"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chela"
+            android:textColor="@color/BGgreen" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <Button
+        android:id="@+id/b_registrationOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_bg"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:text="OK" />
+
+</LinearLayout>

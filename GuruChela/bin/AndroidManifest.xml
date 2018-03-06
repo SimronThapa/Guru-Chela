@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kec.guruchela"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" /> 
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.MyAppTheme" >
+        <activity
+            android:name="com.kec.guruchela.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.kec.guruchela.Signin" >
+        </activity>
+        <activity android:name="com.kec.guruchela.NewRegistration" >
+        </activity>
+          <activity android:name="com.kec.guruchela.NewGRegistration" >
+        </activity>
+        <activity android:name="com.kec.guruchela.NavigationDrawer" >
+            <intent-filter>
+                <action android:name="com.kec.guruchela.NAVIGATIONDRAWER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.kec.guruchela.Settings" >
+        </activity>
+        <activity android:name="com.kec.guruchela.ReportBug" >
+        </activity>
+        <activity android:name="com.kec.guruchela.LogOut" >
+        </activity>
+        <activity android:name="com.kec.guruchela.DynamicTable" >
+        </activity>
+        <activity android:name="com.kec.guruchela.ScheduleDialog" >
+        </activity>
+         <activity android:name="com.kec.guruchela.Navigation_Chela" >
+            <intent-filter>
+                <action android:name="com.kec.guruchela.NAVIGATION_CHELA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Voice" >
+            <intent-filter>
+                <action android:name="com.kec.guruchela.VOICE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.kec.guruchela.FReportGenerate" >
+        </activity>
+        <activity android:name="com.kec.guruchela.FNewDiary" >
+        </activity>
+        <activity android:name="com.kec.guruchela.FNewEvent" >
+        </activity>
+        <activity android:name="com.kec.guruchela.Email" >
+        </activity>
+        <activity android:name="com.kec.guruchela.FCamera" >
+        </activity>
+        <activity android:name="com.kec.guruchela.BM_overview" >
+        </activity>
+        <activity android:name="com.kec.guruchela.BM_details" >
+        </activity>
+        <activity android:name="com.kec.guruchela.FragmentPagerSupport" >
+        </activity>
+        <activity android:name="com.kec.guruchela.AndroidListViewCursorAdaptorActivity" >
+        </activity>
+        <activity android:name="com.kec.guruchela.MainDiary" >
+        </activity>
+        <activity android:name="com.kec.guruchela.MainReport" >
+        </activity>
+        <activity android:name="com.kec.guruchela.ReportCard" >
+        </activity>
+        <activity android:name="com.kec.guruchela.BM_main" >
+        </activity>
+         <activity android:name="com.kec.guruchela.DropboxChooser" >
+        </activity>
+         <activity android:name="com.kec.guruchela.HelloBubblesActivity" >
+        </activity>
+        
+       
+    </application>
+
+</manifest>

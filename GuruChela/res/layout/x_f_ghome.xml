@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearlayouthome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homelist"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    
+
+        <Button
+            android:id="@+id/bSelect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg2"
+            android:text="Select your group!"
+            android:padding="10dp" />
+    
+    <ListView
+        android:id="@+id/listView2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+
+</LinearLayout>

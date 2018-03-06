@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#BDEFB8"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <RadioGroup
+        android:id="@+id/rg_faculty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/msg"
+        android:padding="16dp" >
+
+        <RadioButton
+            android:id="@+id/rbComputer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Computer"
+            android:textColor="@color/BGgreen" />
+
+        <RadioButton
+            android:id="@+id/rbElectronics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electronics"
+            android:textColor="@color/BGgreen" />
+
+        <RadioButton
+            android:id="@+id/rbElectrical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electrical"
+            android:textColor="@color/BGgreen" />
+
+        <RadioButton
+            android:id="@+id/rbCivil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Civil"
+            android:textColor="@color/BGgreen" />
+
+        <RadioButton
+            android:id="@+id/rbMechanical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mechanical"
+            android:textColor="@color/BGgreen" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <Button
+        android:id="@+id/b_facultyOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_bg"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:text="OK" />
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp" 
+    android:background="#BDEFB8">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp" >
+
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1) This features assumes that you attain all lectures.The more you bunk,the lower your attendance percentage gets."
+           
+           android:textColor="#1B5B13" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp" >
+
+        <TextView
+           
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2) You can add 10 subjects in maximum."
+            android:textColor="#1B5B13"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp" >
+
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3) The bunk button will instantly increament the bunk count."
+            
+            android:textColor="#1B5B13" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp" >
+
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4) The overview screen allows you to see your current standing at a glance."
+              android:textColor="#1B5B13"
+             />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/breturn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@drawable/button_bg"
+        android:text="I got it!" />
+
+</LinearLayout>
