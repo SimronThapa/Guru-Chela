@@ -3,4 +3,6 @@ An Android Application built in 2013 - A college application for Student Teacher
 Top features included AI Chat-bot as a help for some CS course, Event Manager, Attendance Tracker, and Crowd Sourcing. 
 Action bar Sherlock was used as for the navigation in the application.
 
+![Alt text](/GuruChela_DEmo_images/logo.png?raw=true "Guru Chela Logo")
+
 
