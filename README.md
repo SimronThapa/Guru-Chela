@@ -5,7 +5,8 @@ Action bar Sherlock was used as for the navigation in the application.
 
 ![Alt text](/GuruChela_DEmo_images/logo.png?raw=true "Guru Chela Logo")
 
-#Application Screenshots
+# Application Screenshots
+
 ![Alt text](/GuruChela_DEmo_images/loginpage.png?raw=true "Guru Chela Login Page")
 ![Alt text](/GuruChela_DEmo_images/registration.png?raw=true "Registration Page")
 ![Alt text](/GuruChela_DEmo_images/actionbar.jpg?raw=true "Navigation Page")
