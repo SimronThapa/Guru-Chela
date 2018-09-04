@@ -5,4 +5,17 @@ Action bar Sherlock was used as for the navigation in the application.
 
 ![Alt text](/GuruChela_DEmo_images/logo.png?raw=true "Guru Chela Logo")
 
+#Application Screenshots
+![Alt text](/GuruChela_DEmo_images/loginpage.png?raw=true "Guru Chela Login Page")
+![Alt text](/GuruChela_DEmo_images/registration.png?raw=true "Registration Page")
+![Alt text](/GuruChela_DEmo_images/actionbar.jpg?raw=true "Navigation Page")
+![Alt text](/GuruChela_DEmo_images/camera.png?raw=true "Camera")
+![Alt text](/GuruChela_DEmo_images/chatbot.png?raw=true "AI Chatbot")
+![Alt text](/GuruChela_DEmo_images/dropbox.png?raw=true "Dropbox Attacher")
+![Alt text](/GuruChela_DEmo_images/effeciency_tracker.jpg?raw=true "Effeciency Tracker")
+![Alt text](/GuruChela_DEmo_images/email.jpg?raw=true "Email")
+![Alt text](/GuruChela_DEmo_images/event.png?raw=true "Event Maneger")
+![Alt text](/GuruChela_DEmo_images/information.png?raw=true "Course Helper")
+![Alt text](/GuruChela_DEmo_images/attendance_tracker.png?raw=true "Attendance Tracker")
+
 
