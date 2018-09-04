@@ -1,7 +1,7 @@
 # Guru-Chela
 An Android Application built in 2013 - A college application for Student Teacher file sharing. Used Dropbox API for big files. 
 Top features included AI Chat-bot as a help for some CS course, Event Manager, Attendance Tracker, and Crowd Sourcing. 
-Action bar Sherlock was used as for the navigation in the application.
+Action bar Sherlock was used as for the navigation in the application and several fragment programming was done for UI. Multi threading was rigorously used for process management.
 
 ![Alt text](/GuruChela_DEmo_images/logo.png?raw=true "Guru Chela Logo")
 
